@@ -1,121 +1,141 @@
-In this project I built **Nxt Watch** App using React, React Router, and a few third party packages.
 
-### Refer to the below video:
+🎬 NxtWatch – Video Streaming Platform (YouTube Clone)
 
-<div style="text-align: center;">
-     <video style="max-width:80%; height:50vh;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);outline:none;" loop="true" autoplay="autoplay" controls="controls" muted>
-    <source src="https://assets.ccbp.in/frontend/content/react-js/nxt-watch-output.mp4" type="video/mp4">
-  </video>
-</div>
-<br/>
+NxtWatch is a modern video streaming platform inspired by YouTube.
+It allows users to explore trending videos, gaming content, search videos, and save videos for later viewing.
 
-### About App
+The application includes secure authentication, protected routes, responsive UI, and seamless video browsing experience.
 
-<details>
-<summary>Click to view</summary>
-<br/>
+🔗 Live Demo
+https://nxt-watch-react-9ng4.vercel.app/
 
-- **Nxt Watch** is a video streaming application similar to YouTube. The application is a Single Page Application(SPA) built using React, featuring various routes like `Login`, `Home`, `Trending`, `Gaming`, `Saved Videos`, `Video` and `Not Found`.
-- By using React Router DOM seamless user navigation is enabled.
-- All routes except `Login` are protected from unauthorized access of users. By wrapping each route inside a protected route.
+---
 
-</details>
+🚀 Features
 
-### App Routes
+- User Authentication (Login / Logout)
+- Protected Routes
+- Trending Videos Section
+- Gaming Videos Section
+- Video Search Functionality
+- Saved Videos Feature
+- Responsive Design
+- Dark / Light Theme Support
+- API Integration
+- Smooth Navigation using React Router
 
- <details>
-<summary>Login</summary>
-<br/>
+---
 
-- User authentication is implemented by making a HTTP POST request to **loginUserApiURL**. Upon successful authentication, authorization token received in response is stored in Cookies for further authorization and user will be directed to home page.
-- If authentication fails, failure is handled and an error displayed.
-</details>
+🛠 Tech Stack
 
-<details>
-<summary>Home</summary>
-<br/>
+Frontend
 
-- A user friendly navigation to navigate across different routes is implemented.
-- An HTTP GET request is made to the **getVideosApiUrl** to fetch videos data by using browsers window API `fetch` method.
-- Data received in response is parsed and rendered.
-- A failure view is implemented to handle any potential request failures.
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Styled Components
 
-</details>
+Libraries & Tools
 
-<details>
-<summary>Trending</summary>
-<br/>
+- React Router
+- Axios
+- React Icons
+- CRACO
+- ESLint
 
-- An HTTP GET request is made to the **getTrendingVideosApiUrl** to fetch Trending videos data by using browsers window API `fetch` method.
-- Data received in response is parsed and rendered.
-- A failure view is implemented to handle any potential request failures.
+Deployment
 
-</details>
+- Vercel
 
-<details>
-<summary>Gaming</summary>
-<br/>
+---
 
-- An HTTP GET request is made to the **getGamingVideosApiUrl** to fetch Gaming videos data by using browsers window API `fetch` method.
-- Data received in response is parsed and rendered.
-- A failure view is implemented to handle any potential request failures.
-</details>
+📂 Project Structure
 
-<details>
-<summary>Video</summary>
-<br/>
+src
+components
+Header
+Sidebar
+Login
+Home
+Trending
+Gaming
+SavedVideos
 
-- An HTTP GET request is made to the **getVideoDataApiUrl** to fetch Gaming videos data by using browsers window API `fetch` method.
-- Data received in response is parsed and rendered.
-- A failure view is implemented to handle any potential request failures.
-- Features: User can like, dislike, and save a video.
+context
 
-</details>
+App.js
+index.js
 
-<details>
-<summary>Saved Videos</summary>
-<br/>
+---
 
-- All saved videos of the user are stored in `Saved Videos List` and rendered.
-</details>
+🔐 Login Credentials
 
-<details>
-<summary>Not Found</summary>
-<br/>
+Use the following credentials to explore the application.
 
-- To handle any unspecified routes(URL paths) provided by user a Not Found route is rendered.
+Username: rahul
+Password: rahul@2021
 
-</details>
+---
 
-### Application URL Paths
+⚙️ Installation & Setup
 
-<details>
-<summary>Click to view</summary>
+Clone the repository
 
-<br/>
+git clone https://github.com/MANIKANTA43513/NXT-WATCH--React.git
 
-- `Home` route URL path `https://rovernxtwatch.ccbp.tech/`
-- `Login` route URL path `https://rovernxtwatch.ccbp.tech/login`
-- `Trending` route URL path `https://rovernxtwatch.ccbp.tech/trending`
-- `Gaming` route URL path `https://rovernxtwatch.ccbp.tech/gaming`
-- `SavedVideos` route URL path `https://rovernxtwatch.ccbp.tech/saved-videos`
-- `VideoItemDetails` route URL path `https://rovernxtwatch.ccbp.tech/videos/:id`
-</details>
+Go to the project directory
 
-### Tech Stack
+cd NXT-WATCH--React
 
-<details>
-<summary>Click to view</summary>
+Install dependencies
 
-<br/>
+npm install
 
-- React, JavaScript, CSS, HTML, JSX, and a few third-party npm packages like react router DOM, react Pop-up, react-icons, js-cookie, styled-components, react-loader-spinner.
-</details>
+Run the application
 
-### User credentials
+npm start
 
-```text
- username: rahul
- password: rahul@2021
+Open in browser
 
-```
+http://localhost:3000
+
+---
+
+🌐 Deployment
+
+This project is deployed using Vercel.
+
+Live URL
+https://nxt-watch-react-9ng4.vercel.app/
+
+---
+
+📸 Screenshots
+
+Add screenshots of the following pages:
+
+- Login Page
+- Home Page
+- Trending Page
+- Gaming Page
+- Video Player
+
+---
+
+👨‍💻 Author
+
+Mani (Marikanta)
+
+Aspiring AI Engineer | MERN Stack Developer | React Developer
+
+GitHub
+https://github.com/MANIKANTA43513
+
+---
+
+⭐ Support
+
+If you like this project, please consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates further improvements.
